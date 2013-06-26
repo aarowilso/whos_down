@@ -2,6 +2,7 @@ WhosDown::Application.routes.draw do
 
 root :to => 'pages#home'
 get 'about' => 'pages#about'
+get 'signup' =>'pages#signup'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

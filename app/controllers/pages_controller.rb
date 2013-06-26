@@ -4,4 +4,7 @@ class PagesController < ApplicationController
   
   def action
   end
+  
+  def signup
+  end
 end
